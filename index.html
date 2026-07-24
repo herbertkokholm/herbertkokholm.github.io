@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Thomas Herbert Kokholm</title>
+<meta name="description" content="Engineer and technology executive working on VR- and AI-based training platforms for healthcare and welfare education. Business & Innovation Director at CoFlow Visuals, Horsens, Denmark.">
+<link rel="canonical" href="https://herbertkokholm.dk/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Thomas Herbert Kokholm">
+<meta property="og:title" content="Thomas Herbert Kokholm">
+<meta property="og:description" content="Engineer and technology executive working on VR- and AI-based training platforms for healthcare and welfare education.">
+<meta property="og:url" content="https://herbertkokholm.dk/">
+<meta property="og:image" content="https://herbertkokholm.dk/assets/images/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Thomas Herbert Kokholm">
+<meta name="twitter:description" content="Engineer and technology executive working on VR- and AI-based training platforms for healthcare and welfare education.">
+<meta name="twitter:image" content="https://herbertkokholm.dk/assets/images/og.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script>
+/* Theme bootstrap. Must run before first paint to avoid a flash. */
+(function(){
+  try {
+    var saved = localStorage.getItem("thk-theme");
+    var t = saved || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", t);
+  } catch (e) { document.documentElement.setAttribute("data-theme","light"); }
+})();
+</script>
+</head>
+
+<body>
+
+<noscript>
+  <div class="wrap state" id="noscript-fallback">
+    This page renders its content from JSON. Enable JavaScript, or read the source data at
+    <a href="data/site.json">data/site.json</a>.
+  </div>
+</noscript>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="topbar__name" href="#top" id="topbar-name"></a>
+    <nav aria-label="Sections"><ul class="navlist" id="navlist"></ul></nav>
+    <div class="langs" id="langs" hidden></div>
+    <button class="themetog" id="themetog" type="button" aria-label="Toggle colour theme"></button>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="wrap hero" id="hero" hidden>
+    <div class="hero__grid">
+      <div>
+        <p class="eyebrow" id="hero-location"></p>
+        <h1 class="hero__name" id="hero-name"></h1>
+        <p class="hero__headline" id="hero-headline"></p>
+        <p class="hero__tagline" id="hero-tagline"></p>
+        <div class="ctas" id="hero-ctas"></div>
+        <ul class="profiles" id="hero-profiles"></ul>
+      </div>
+      <img class="hero__portrait" id="hero-portrait" alt="" hidden>
+    </div>
+  </div>
+
+  <div id="sections"></div>
+
+  <div class="wrap state" id="fatal" hidden></div>
+</main>
+
+<footer class="foot"><div class="wrap"><span id="foot-line"></span></div></footer>
+
+<!-- Section templates. No content strings, structure only. -->
+<template id="tpl-section">
+  <section class="section">
+    <div class="wrap">
+      <div class="section__head">
+        <p class="eyebrow" data-slot="eyebrow"></p>
+        <h2 class="section__title" data-slot="title"></h2>
+        <p class="section__intro" data-slot="intro" hidden></p>
+      </div>
+      <div data-slot="body"></div>
+    </div>
+  </section>
+</template>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="assets/js/app.js" defer></script>
+</body>
+</html>

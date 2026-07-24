@@ -1,0 +1,16 @@
+[
+  {
+    "id": "kokholm-2026-vad",
+    "type": "article",
+    "title": "Voice Activity Detection for Conversational AI in Clinical Simulation-Based Learning: An Empirical Optimisation Framework",
+    "author": [
+      { "family": "Kokholm", "given": "Thomas Herbert" }
+    ],
+    "issued": { "date-parts": [[2026]] },
+    "DOI": "10.2139/ssrn.6739487",
+    "URL": "https://doi.org/10.2139/ssrn.6739487",
+    "publisher": "SSRN",
+    "tracks": ["conversational-ai", "clinical-simulation"],
+    "featured": true
+  }
+]

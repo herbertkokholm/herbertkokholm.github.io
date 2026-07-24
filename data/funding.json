@@ -1,0 +1,18 @@
+[
+  {
+    "id": "vr-interaction-training-nursing-welfare",
+    "title": "VR Interaction Training for the Nursing and Welfare Sector",
+    "description": "VR Care Competence is a training platform that combines VR, tablet based simulation, and AI driven dialogue training to strengthen the competencies of social and healthcare personnel and reduce practice shock. The system uses NLP to provide real time feedback on communication and empathy in care situations such as wound care and personal hygiene. It has been developed in collaboration with social and healthcare colleges and municipalities. The scalable tablet version enables broad implementation independent of dedicated hardware and can be extended to other user groups.",
+    "type": "grant",
+    "funder": "Innovationsfonden",
+    "funderRor": "https://ror.org/00daj4111",
+    "grantNumber": "5380-00397B",
+    "amount": 289188,
+    "currency": "DKK",
+    "start": "2026-05",
+    "end": "2027-06",
+    "orcidPutCode": 2488341,
+    "url": "https://orcid.org/0009-0009-3027-2043",
+    "tracks": ["clinical-simulation", "vr-immersive", "conversational-ai", "assessment"]
+  }
+]

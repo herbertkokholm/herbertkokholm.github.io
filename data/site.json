@@ -1,0 +1,345 @@
+{
+  "$comment": "Hand-written. Never generated.",
+  "meta": {
+    "defaultLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "title": "Thomas Herbert Kokholm",
+    "description": "Engineer and technology executive working on VR- and AI-based training platforms for healthcare and welfare education. Business & Innovation Director at CoFlow Visuals, Horsens, Denmark.",
+    "canonical": "https://herbertkokholm.dk/",
+    "ogImage": "assets/images/og.png"
+  },
+  "sections": [
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "research",
+      "label": "Research"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "funding",
+      "label": "Funding"
+    },
+    {
+      "id": "publications",
+      "label": "Publications"
+    },
+    {
+      "id": "books",
+      "label": "Books"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ],
+  "identity": {
+    "name": "Thomas Herbert Kokholm",
+    "headline": "Director, Business & Innovation at CoFlow Visuals ApS",
+    "tagline": "Electrical engineer by training, executive by career, now building VR- and AI-based training platforms for healthcare and welfare education, and researching how simulation-based training can demonstrably build clinical competence.",
+    "location": "Horsens, Denmark",
+    "portrait": {
+      "src": "assets/images/portrait.jpg",
+      "alt": "Thomas Herbert Kokholm"
+    },
+    "cta": [
+      {
+        "id": "cta-projects",
+        "label": "Projects",
+        "href": "#projects"
+      },
+      {
+        "id": "cta-contact",
+        "label": "Get in touch",
+        "href": "#contact"
+      }
+    ],
+    "profiles": [
+      {
+        "id": "linkedin",
+        "label": "LinkedIn",
+        "href": "https://linkedin.com/in/kokholm"
+      },
+      {
+        "id": "orcid",
+        "label": "ORCID",
+        "href": "https://orcid.org/0009-0009-3027-2043"
+      },
+      {
+        "id": "github",
+        "label": "GitHub",
+        "href": "https://github.com/herbertkokholm"
+      }
+    ]
+  },
+  "taxonomy": {
+    "tracks": [
+      {
+        "id": "clinical-simulation",
+        "label": "Clinical simulation",
+        "color": "#2f6f4f"
+      },
+      {
+        "id": "conversational-ai",
+        "label": "Conversational AI",
+        "color": "#1f5fa8"
+      },
+      {
+        "id": "vr-immersive",
+        "label": "VR and immersive learning",
+        "color": "#6b3fa0"
+      },
+      {
+        "id": "assessment",
+        "label": "Assessment and validation",
+        "color": "#b45309"
+      },
+      {
+        "id": "health-data-security",
+        "label": "Health data security",
+        "color": "#9b1c31"
+      }
+    ]
+  },
+  "about": {
+    "paragraphs": [
+      "I am an electrical engineer who spent twentyfive years leading technical organisations, and who came back to building. Along the way I have run units of up to ninety people, held executive roles across software, industrial technology and recruitment, and driven change programmes in both private companies and public institutions.",
+      "Today I lead product strategy, research collaboration and educational development at CoFlow Visuals, where we build VR- and AI-based training platforms for healthcare and welfare education. The work is done together with university colleges, university hospitals and research institutions, and I am responsible for the full technical architecture as well as the commercial side.",
+      "The thread through all of it is the same question: what does it take for a simulated encounter to produce real clinical competence, and how would you know? That is where the engineering, the pedagogy and the measurement have to meet.",
+      "A first empirical answer came from a completed VR pilot study with Aalborg University and UCN, funded by Erhvervsfyrtårn Life Science and co-financed by the European Union, with a paper in preparation. Building on that work, an industrial PhD is in preparation."
+    ],
+    "experience": {
+      "label": "Selected experience",
+      "items": [
+        {
+          "id": "exp-coflow",
+          "start": "2025",
+          "end": null,
+          "role": "Director, Business & Innovation",
+          "org": "CoFlow Visuals ApS",
+          "note": "VR- and AI-based training platforms for healthcare education. Product strategy, research collaboration, and full technical architecture including VR, AI evaluation, embedded hardware and platform software."
+        },
+        {
+          "id": "exp-advansor",
+          "start": "2021",
+          "end": "2022",
+          "role": "Director, Sales & Operations",
+          "org": "Advansor A/S",
+          "note": "Executive team member. Led 45 people across three units in an international, technology-heavy organisation with regional managers in ten countries."
+        },
+        {
+          "id": "exp-unisport",
+          "start": "2019",
+          "end": "2021",
+          "role": "Head of Indoor Division",
+          "org": "Unisport Scandinavia ApS",
+          "note": "Full value chain for projects delivered to schools and public institutions. Ran the ERP migration from Navision to Dynamics 365 as an organisation-wide change project."
+        },
+        {
+          "id": "exp-wurth",
+          "start": "2014",
+          "end": "2017",
+          "role": "Senior Sales Director",
+          "org": "Würth Danmark A/S",
+          "note": "Leadership team. Six managers, ninety-plus people. Programme lead for two strategic change tracks: digital transformation and organisational development."
+        },
+        {
+          "id": "exp-sas",
+          "start": "2012",
+          "end": "2014",
+          "role": "Account Director",
+          "org": "SAS Institute A/S",
+          "note": "Key account management for the largest municipalities in Jutland and Funen. Analytics applied to welfare services."
+        },
+        {
+          "id": "exp-kmd",
+          "start": "2005",
+          "end": "2012",
+          "role": "Team Manager to Head of Business Development",
+          "org": "KMD A/S",
+          "note": "IT security portfolio covering identity and organisational management and SAP security architecture. Member of the standards committee for DS 484, the Danish information security standard. Later responsible for KMD Education."
+        },
+        {
+          "id": "exp-early",
+          "start": "1997",
+          "end": "2004",
+          "role": "Software and embedded systems engineer",
+          "org": "Fujitsu Services, Carl Bro, IAR Systems, LASAT Communication",
+          "note": "Software architecture, embedded systems and consulting. Co-author of the Danish Health Authority's IT security guidance for hospitals (2002), the national guidance on access control and data security in healthcare."
+        }
+      ]
+    },
+    "education": {
+      "label": "Education",
+      "items": [
+        {
+          "id": "edu-mba",
+          "year": "2010",
+          "degree": "Master of Business Administration",
+          "org": "Henley Business School"
+        },
+        {
+          "id": "edu-hd",
+          "year": "2002",
+          "degree": "Graduate Diploma in Organisation and Management (HD-O)",
+          "org": "Aarhus University"
+        },
+        {
+          "id": "edu-hpcp",
+          "year": "2015",
+          "degree": "High Potential Candidate Programme",
+          "org": "Würth Business Academy"
+        },
+        {
+          "id": "edu-bsc",
+          "year": "1997",
+          "degree": "BSc Electrical Engineering (hons.)",
+          "org": "Aarhus University"
+        }
+      ]
+    },
+    "counters": [
+      {
+        "id": "counter-people",
+        "value": "90+",
+        "label": "People in the largest organisation led"
+      },
+      {
+        "id": "counter-countries",
+        "value": "10",
+        "label": "Countries covered in an international line organisation"
+      },
+      {
+        "id": "counter-projects",
+        "source": "projects-count-total",
+        "value": "–",
+        "label": "Product and research projects"
+      },
+      {
+        "id": "counter-github-repos",
+        "source": "github-public-repos",
+        "username": "herbertkokholm",
+        "value": "–",
+        "label": "Public repositories on GitHub"
+      }
+    ]
+  },
+  "research": {
+    "intro": "Applied research carried out from industry, in collaboration with university colleges, university hospitals and universities. An industrial PhD is in preparation.",
+    "lines": [
+      {
+        "id": "line-conversational-ai",
+        "track": "conversational-ai",
+        "status": "Active empirical study",
+        "title": "Real-time conversational agents as simulated patients",
+        "body": "Speech-driven agents only work as training partners if the turn-taking feels like a conversation. That makes the unglamorous parts decisive: voice activity detection, endpointing, latency budgets. My current empirical work optimises these parameters specifically for clinical history-taking, where pauses carry meaning and cutting a student off changes what is being taught.",
+        "keywords": [
+          "voice activity detection",
+          "latency",
+          "turn-taking",
+          "history taking"
+        ]
+      },
+      {
+        "id": "line-clinical-simulation",
+        "track": "clinical-simulation",
+        "status": "Ongoing applied R&D",
+        "title": "Simulation architecture for clinical education",
+        "body": "How a simulation platform is built determines what it can teach and what it can measure. I work on the architecture that connects scenario design, learner interaction and evaluation, so that a training system produces usable evidence rather than only an experience.",
+        "keywords": [
+          "scenario design",
+          "OSCE",
+          "structured oral examination",
+          "platform architecture"
+        ]
+      },
+      {
+        "id": "line-vr-immersive",
+        "track": "vr-immersive",
+        "status": "Study protocol in preparation",
+        "title": "VR-based training in healthcare and welfare",
+        "body": "Immersive training is expensive to produce and easy to justify badly. The work here concerns where virtual reality earns its cost against simpler formats, and how to design for transfer rather than novelty. Includes a study protocol for VR-based dementia care training.",
+        "keywords": [
+          "dementia care",
+          "transfer",
+          "study protocol",
+          "welfare education"
+        ]
+      },
+      {
+        "id": "line-assessment",
+        "track": "assessment",
+        "status": "Validation framework in development",
+        "title": "Assessment and validation of AI-driven training",
+        "body": "If an AI system judges a learner's performance, the judgement itself needs validating. I work on construct validity and evaluation design for AI-assisted assessment, and on the question of what counts as adequate evidence before such a system is put in front of students.",
+        "keywords": [
+          "construct validity",
+          "evaluation design",
+          "AI-assisted assessment"
+        ]
+      },
+      {
+        "id": "line-health-data-security",
+        "track": "health-data-security",
+        "status": "Ongoing platform practice",
+        "title": "Security and data protection in educational health platforms",
+        "body": "Security has run through my whole career, from co-authoring the national IT security guidance for Danish hospitals and sitting on the DS 484 standards committee, to being responsible for the handling of health data in CoFlow's platforms today. My position is that security is a foundational discipline in software education, not a supplementary module.",
+        "keywords": [
+          "health data",
+          "DS 484",
+          "access control",
+          "curriculum"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "source": "data/projects.json",
+    "bodyTruncateChars": 220
+  },
+  "funding": {
+    "source": "data/funding.json",
+    "bodyTruncateChars": 220
+  },
+  "books": {
+    "source": "data/books.json"
+  },
+  "publications": {
+    "source": "data/publications.json",
+    "filters": [
+      "year",
+      "type",
+      "track"
+    ],
+    "pageSize": 15,
+    "sort": "year-desc",
+    "chartsMinPublications": 5,
+    "charts": [
+      {
+        "id": "chart-per-year",
+        "kind": "bar",
+        "of": "year"
+      },
+      {
+        "id": "chart-per-track",
+        "kind": "doughnut",
+        "of": "track"
+      }
+    ],
+    "search": true
+  },
+  "contact": {
+    "email": "thomas@coflow.dk",
+    "phone": "+45 31 77 17 70",
+    "org": "CoFlow Visuals ApS",
+    "city": "Horsens, Denmark",
+    "note": "Open to research collaboration, external examiner work, speaking, and conversations about simulation-based education."
+  }
+}

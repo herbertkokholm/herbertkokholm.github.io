@@ -1,0 +1,173 @@
+[
+  {
+    "id": "vr-mental-health-literacy",
+    "name": "VR-Based Training in Mental Health Literacy",
+    "tracks": [
+      "clinical-simulation",
+      "vr-immersive",
+      "conversational-ai",
+      "assessment"
+    ],
+    "status": "Completed",
+    "statusGroup": "completed",
+    "year": "2026",
+    "funder": "Erhvervsfyrtårn Life Science (EU co-financed)",
+    "summary": "Mixed-methods pilot study on VR-based training in mental health literacy and health-literate communication, using AI-driven conversational avatars and an OSCE-style rubric evaluated by AI.",
+    "body": "Conducted across two Danish sites (Aalborg University and UCN) on the HealthSim platform. Found high baseline mental health literacy and strong technology acceptance, alongside a pronounced gap between empathic and health-literate communication performance. Funded by Erhvervsfyrtårn Life Science, grant RFPRO-23-0061, co-financed by the European Union. A paper is in preparation.",
+    "image": null,
+    "links": []
+  },
+  {
+    "id": "researchthis",
+    "name": "ResearchThis",
+    "tracks": [],
+    "status": "MVP",
+    "statusGroup": "active",
+    "year": "2026",
+    "summary": "Filterable, shareable card gallery for a curated literature-surveillance feed, backed by S3 and Zotero.",
+    "body": "Turns a curated literature-surveillance feed into a browsable gallery: a versioned JSON data contract lives in S3, the running portal fetches and renders it with no redeploy needed, and an MCP server exposes the same feed to research tools. Includes optional Zotero reconciliation and in-app chat over the findings.",
+    "image": null,
+    "links": [
+      {
+        "id": "researchthis-site",
+        "label": "Website",
+        "href": "https://herbertkokholm.github.io/ResearchThis/"
+      },
+      {
+        "id": "researchthis-github",
+        "label": "GitHub",
+        "href": "https://github.com/herbertkokholm/ResearchThis"
+      }
+    ]
+  },
+  {
+    "id": "cite-caddy",
+    "name": "Cite Caddy",
+    "tracks": [],
+    "status": "V1 deployed",
+    "statusGroup": "active",
+    "year": "2026",
+    "summary": "Remote MCP server giving AI assistants full read/write access to a Zotero library, deployed as its own OAuth-gated connector.",
+    "body": "Gives MCP clients full CRUD against a Zotero library — search, add, tag, update, delete, and move items and collections — not just read-only lookups. Ships as its own Docker container behind a reverse proxy, gated by a first-party OAuth 2.1 authorization server so it works directly as a Claude \"custom connector\" with no manual headers. Destructive operations (delete, cross-library move) require the item's current Zotero version and refuse the call if it's stale, since those operations break Word documents citing the item via the Zotero Word plugin's live field codes.",
+    "image": null,
+    "links": [
+      {
+        "id": "cite-caddy-site",
+        "label": "Website",
+        "href": "http://herbertkokholm.dk/cite-caddy/"
+      },
+      {
+        "id": "cite-caddy-github",
+        "label": "GitHub",
+        "href": "https://github.com/herbertkokholm/cite-caddy"
+      }
+    ]
+  },
+  {
+    "id": "healthsim",
+    "name": "HealthSim",
+    "tracks": [
+      "clinical-simulation",
+      "vr-immersive",
+      "assessment"
+    ],
+    "year": "2025",
+    "status": "Ongoing",
+    "statusGroup": "active",
+    "summary": "VR and conversational-AI training platform for clinical and communication skills, built with CoFlow Visuals.",
+    "body": "HealthSim pairs two integrated products. HealthSim VR delivers immersive OSCE/SOE evaluation environments with digital scoring sheets, competency mapping and institutional analytics dashboards. Talkwise layers AI-generated, real-time patient voices onto existing high-fidelity mannequins, so learners get responsive dialogue without replacing simulation equipment. Used across SOSU schools and professional colleges, clinical simulation centres, and pre-hospital / emergency-dispatch training, covering scenarios from patient consultation and empathetic communication through to acute-care HLR/ACLS team coordination. Developed with university colleges and university hospitals.",
+    "image": null,
+    "links": [
+      {
+        "id": "healthsim-site",
+        "label": "Website",
+        "href": "https://healthsim.coflowvisuals.com"
+      }
+    ]
+  },
+  {
+    "id": "kp-velfaerdsteknologi-f26",
+    "name": "HealthSim på KP – Velfærdsteknologi F26",
+    "tracks": [
+      "clinical-simulation",
+      "vr-immersive",
+      "conversational-ai",
+      "assessment"
+    ],
+    "status": "Completed",
+    "statusGroup": "completed",
+    "year": "2026",
+    "summary": "Cross-professional course case at Københavns Professionshøjskole: student teams built casepersonas scenarios for difficult conversations on the HealthSim platform.",
+    "body": "36 students across 6 teams built (co-design) casepersonas and communication scenarios for difficult conversations — including a terminal leukaemia patient and a stroke patient with aphasia — on the HealthSim platform as their practice-partner case with CoFlow Visuals. 50 sessions were logged across 11 self-scored cases, with AI-generated feedback on rapport, empathy and next-steps. Findings fed into a module evaluation and a set of platform recommendations: extend to cross-professional communication between health disciplines, refine AI-dialogue prompts toward more natural conversation, and lower the technical barrier to VR adoption.",
+    "image": null,
+    "links": [
+      {
+        "id": "kp-site",
+        "label": "Københavns Professionshøjskole",
+        "href": "https://www.kp.dk"
+      }
+    ]
+  },
+  {
+    "id": "talkwise",
+    "name": "Talkwise",
+    "tracks": [
+      "conversational-ai"
+    ],
+    "status": "V1 deployed",
+    "statusGroup": "active",
+    "year": "2026",
+    "summary": "Purpose-built audio terminal for AI-mediated conversation training, without a VR headset.",
+    "body": "A physical audio terminal, built for Raspberry Pi 4 and 5, that connects live sessions to the OpenAI Realtime API and simulates calls through a Jabra headset, ringing, physical controls and LED status feedback. The device reports session and audio-health metrics continuously, making turn-taking, response behaviour and voice-activity detection observable rather than anecdotal. Engineering focus is on reliable field operation: self-service Wi-Fi provisioning via captive portal, device heartbeat, recovery from backend or network outages, firmware versioning and over-the-air updates, and a golden-image manufacturing workflow for consistent replication. Also serves as a research instrument for studying how conversational AI behaves in embodied, real-time interaction — particularly the relationship between voice-activity-detection settings, interruptions, latency and the felt naturalness of a spoken exchange.",
+    "image": null,
+    "links": [
+      {
+        "id": "talkwise-github",
+        "label": "GitHub",
+        "href": "https://github.com/herbertkokholm/talkwise-pi"
+      }
+    ]
+  },
+  {
+    "id": "verum",
+    "name": "Verum",
+    "tracks": [
+      "clinical-simulation",
+      "assessment"
+    ],
+    "status": "Ongoing",
+    "statusGroup": "active",
+    "year": "2026",
+    "summary": "Domain-neutral simulation middleware with compile-time verification of authored scenarios.",
+    "body": "A verifying compiler and domain-neutral interpreter for scenario-driven training platforms: authored scenarios are checked for reachability, contract soundness and evaluation completeness before they run, so components stay reusable across domains without modification. Underlies HealthSim's scenario architecture. A paper describing the architecture is in preparation.",
+    "image": null,
+    "links": [
+      {
+        "id": "verum-github",
+        "label": "GitHub",
+        "href": "https://github.com/herbertkokholm/verum"
+      }
+    ]
+  },
+  {
+    "id": "health-literacy-persona-validation",
+    "name": "Health Literacy Persona Validation",
+    "tracks": [
+      "assessment",
+      "conversational-ai"
+    ],
+    "status": "Planning phase",
+    "statusGroup": "planned",
+    "year": "2026",
+    "summary": "Construct-validation study testing whether parameterized health-literacy personas in LLM patient simulations produce recognisable, ratable behaviour.",
+    "body": "Phase 1 of a two-phase design: generates blinded conversations across five bipolar health-literacy determinants (Sørensen et al., 2012), collects blind ratings, and analyses separability and inter-rater reliability. A funded Phase 2 responsiveness study, testing whether clinicians adapt their communication to a patient's determinant level, depends on Phase 1 succeeding first.",
+    "image": null,
+    "links": [
+      {
+        "id": "hlpv-github",
+        "label": "GitHub",
+        "href": "https://github.com/herbertkokholm/health-literacy-persona-validation"
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "book-genai-clinical",
+    "title": "When Artificial Intelligence Gets in the Way",
+    "subtitle": "A clinical handbook on language, communication and AI",
+    "publisher": "To be announced",
+    "year": "2027",
+    "status": "Forthcoming",
+    "cover": null,
+    "languages": [
+      "da"
+    ],
+    "blurb": "Written for healthcare professionals who use AI in practice, no technical background needed. An edited anthology showing how to use AI responsibly across dementia, aphasia, psychosis and palliative care.",
+    "links": []
+  },
+  {
+    "id": "book-jobhunting",
+    "title": "10 gode råd til din jobsøgning",
+    "subtitle": "Vejen til dit næste job",
+    "publisher": "Herbert Kokholm & Co",
+    "year": "2024",
+    "status": "Published, in Danish",
+    "cover": {
+      "src": "assets/images/cover-jobhunting.jpg",
+      "alt": "Cover: 10 gode råd til din jobsøgning"
+    },
+    "languages": [
+      "da"
+    ],
+    "blurb": "A short practical guide to running a job search deliberately rather than reactively: how to position yourself, approach employers, and stand out in a crowded field.",
+    "links": [
+      {
+        "id": "jobhunting-apple",
+        "label": "Apple Books",
+        "href": "https://books.apple.com/dk/book/10-gode-ra-d-til-din-jobs%C3%B8gning/id6503946846"
+      }
+    ]
+  },
+  {
+    "id": "book-sales",
+    "title": "10 enkle, uundværlige råd om salg",
+    "subtitle": null,
+    "publisher": "Herbert Kokholm & Co",
+    "year": "2018",
+    "status": "Published, in Danish",
+    "cover": {
+      "src": "assets/images/cover-sales.jpg",
+      "alt": "Cover: 10 enkle, uundværlige råd om salg"
+    },
+    "languages": [
+      "da"
+    ],
+    "blurb": "Twenty-five years of B2B selling across direct, retail, key account and project channels, compressed into ten rules meant to be reread until they become habit.",
+    "links": [
+      {
+        "id": "sales-apple",
+        "label": "Apple Books",
+        "href": "https://books.apple.com/dk/book/10-enkle-uundv%C3%A6rlige-r%C3%A5d-om-salg/id1378565174"
+      }
+    ]
+  }
+]

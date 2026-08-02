@@ -169,5 +169,25 @@
         "href": "https://github.com/herbertkokholm/health-literacy-persona-validation"
       }
     ]
+  },
+  {
+    "id": "attest",
+    "name": "Attest",
+    "tracks": [
+      "assessment"
+    ],
+    "status": "Initial phase",
+    "statusGroup": "planned",
+    "year": "2026",
+    "summary": "A continuously self-validating, multi-vendor LLM architecture for systematic-review evidence screening, separating operational adjudication, adaptive learning, and unbiased recall estimation.",
+    "body": "Each candidate record is rated independently by an ensemble of LLMs from distinct vendors, with a configurable aggregation and escalation rule producing either an operational label or a human review. Every decision carries an immutable configuration identifier capturing vendor set, model versions, prompts, aggregation rule and threshold, so an evolving ensemble is treated as a versioned measurement instrument rather than an untracked confound.\n\nThe core design is a hard statistical firewall between three planes: operational adjudication, adaptive learning, and a random recall audit. Only randomly (optionally stratified) sampled records feed the recall estimate, and screening recall is defined strictly as sensitivity rather than the correct-exclusion rate that static evaluations often report in its place, avoiding the common error of estimating population recall from a selectively reviewed sample. Reporting follows PRISMA 2020, PRISMA-S and TRIPOD-LLM.",
+    "image": null,
+    "links": [
+      {
+        "id": "attest-github",
+        "label": "GitHub (private)",
+        "href": "https://github.com/herbertkokholm/attest"
+      }
+    ]
   }
 ]

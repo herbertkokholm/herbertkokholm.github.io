@@ -20,7 +20,7 @@ the renderer app live in `assets/`.
 └── assets/
     ├── css/style.css      # all styling.
     ├── js/app.js          # the renderer app.
-    └── images/            # portrait.jpg, book covers and og.png (1200×630)
+    └── images/            # portrait.png, book covers and og.png (1200×630)
 ```
 
 ## Features

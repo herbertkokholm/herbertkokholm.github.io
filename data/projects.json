@@ -44,7 +44,7 @@
     "id": "cite-caddy",
     "name": "Cite Caddy",
     "tracks": [],
-    "status": "V1 deployed",
+    "status": "Online",
     "statusGroup": "active",
     "year": "2026",
     "summary": "Remote MCP server giving AI assistants full read/write access to a Zotero library, deployed as its own OAuth-gated connector.",
@@ -60,6 +60,11 @@
         "id": "cite-caddy-github",
         "label": "GitHub",
         "href": "https://github.com/herbertkokholm/cite-caddy"
+      },
+      {
+        "id": "glama-mcp",
+        "label": "Glama",
+        "href": "https://glama.ai/mcp/servers/herbertkokholm/cite-caddy"
       }
     ]
   },
@@ -185,7 +190,7 @@
     "links": [
       {
         "id": "attest-github",
-        "label": "GitHub (private)",
+        "label": "GitHub",
         "href": "https://github.com/herbertkokholm/attest"
       }
     ]

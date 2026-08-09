@@ -11,6 +11,7 @@ the renderer app live in `assets/`.
 ├── index.html            # skeleton + renderers. No content strings, no styling.
 ├── .nojekyll             # tells GitHub Pages to serve files as-is
 ├── CNAME                 # custom domain: herbertkokholm.dk
+├── discord/index.html    # meta-refresh redirect: /discord → Discord invite
 ├── data/
 │   ├── site.json         # hand-written. Never touched by tooling.
 │   ├── publications.json # generated from Zotero. Never edited by hand.

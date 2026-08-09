@@ -50,9 +50,10 @@ img{max-width:100%;display:block}
 .ctas a:first-child{background:var(--ink);color:var(--paper)}
 .ctas a:hover{background:var(--wash);color:var(--ink)}
 .ctas a:first-child:hover{background:var(--ink);color:var(--paper);opacity:.85}
-.profiles{display:flex;flex-wrap:wrap;gap:1rem;margin-top:1.5rem;list-style:none;padding:0}
-.profiles a{font:400 .8125rem/1 var(--mono);color:var(--muted);text-decoration:none;border-bottom:1px solid var(--rule)}
-.profiles a:hover{color:var(--ink);border-bottom-color:var(--ink)}
+.profiles{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.5rem;list-style:none;padding:0}
+.profiles a{display:flex;align-items:center;justify-content:center;width:2.25rem;height:2.25rem;color:var(--muted);border:1px solid var(--rule);border-radius:50%;text-decoration:none}
+.profiles a:hover{color:var(--ink);border-color:var(--ink)}
+.profiles svg{display:block}
 
 /* sections */
 .section{padding-block:var(--gap);border-top:1px solid var(--rule)}

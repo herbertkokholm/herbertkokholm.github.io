@@ -76,6 +76,11 @@
         "id": "github",
         "label": "GitHub",
         "href": "https://github.com/herbertkokholm"
+      },
+      {
+        "id": "discord",
+        "label": "Discord",
+        "href": "/discord"
       }
     ]
   },

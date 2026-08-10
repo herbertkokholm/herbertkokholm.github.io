@@ -49,6 +49,10 @@
       "src": "assets/images/portrait.png",
       "alt": "Thomas Herbert Kokholm"
     },
+    "logo": {
+      "src": "assets/images/logo.png",
+      "alt": "Thomas Herbert Kokholm"
+    },
     "cta": [
       {
         "id": "cta-projects",

@@ -171,7 +171,8 @@
   function renderHero(){
     const id = state.site.identity || {};
     $("hero").hidden = false;
-    $("topbar-name").textContent = id.name || "";
+    $("topbar-name").src = id.logo?.src || "";
+    $("topbar-name").alt = id.logo?.alt || id.name || "";
     $("hero-name").textContent = id.name || "";
     $("hero-location").textContent = t(id.location);
     $("hero-headline").textContent = t(id.headline);

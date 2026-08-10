@@ -25,7 +25,8 @@ img{max-width:100%;display:block}
 /* nav */
 .topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
 .topbar__inner{display:flex;align-items:center;gap:1.5rem;min-height:3.5rem}
-.topbar__name{font:600 .95rem/1 var(--display);letter-spacing:.01em;margin-right:auto;white-space:nowrap}
+.topbar__name{display:flex;align-items:center;margin-right:auto}
+.topbar__logo{height:2.25rem;width:auto}
 .navlist{display:flex;gap:1.25rem;list-style:none;margin:0;padding:0;overflow-x:auto;scrollbar-width:none}
 .navlist::-webkit-scrollbar{display:none}
 .navlist a{font:400 .8125rem/1 var(--mono);color:var(--muted);text-decoration:none;white-space:nowrap;padding-block:.4rem;border-bottom:1px solid transparent}

@@ -129,6 +129,14 @@
       "label": "Selected experience",
       "items": [
         {
+          "id": "exp-nordicemergency",
+          "start": "2026",
+          "end": null,
+          "role": "CEO, Co-Founder",
+          "org": "Nordic Emergency ApS",
+          "note": "VR-based emergency response and CPR training, organised across Solutions, Academy and Labs divisions. Co-founded to bring immersive simulation to life-saving skills education for institutions and organisations alike."
+        },
+        {
           "id": "exp-coflow",
           "start": "2025",
           "end": null,

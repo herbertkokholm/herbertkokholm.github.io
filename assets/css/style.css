@@ -2,8 +2,8 @@
   --ink:#16181d; --paper:#fbfaf8; --muted:#6b6f76; --rule:#e3e0da; --wash:#f2efe9;
   --portrait:grayscale(1);
   --accent:var(--ink);
-  --display:"Playfair Display",Georgia,serif;
-  --body:"Source Serif 4",Georgia,serif;
+  --display:"Space Grotesk",ui-sans-serif,system-ui,sans-serif;
+  --body:"DM Sans",ui-sans-serif,system-ui,sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,monospace;
   --wrap:1080px; --gap:clamp(3rem,7vw,6rem);
 }
@@ -34,8 +34,8 @@ img{max-width:100%;display:block}
 .langs{display:flex;gap:.35rem}
 .langs button{font:400 .75rem/1 var(--mono);text-transform:uppercase;background:none;border:0;padding:.35rem .3rem;color:var(--muted);cursor:pointer}
 .langs button[aria-pressed="true"]{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
-.themetog{font:400 .9rem/1 var(--mono);background:none;border:1px solid var(--rule);color:var(--muted);width:2rem;height:2rem;cursor:pointer;flex:0 0 auto}
-.themetog:hover{color:var(--ink);border-color:var(--ink)}
+.themetog{display:flex;align-items:center;justify-content:center;font:400 .9rem/1 var(--mono);background:none;border:1px solid var(--ink);border-radius:50%;color:var(--ink);width:2rem;height:2rem;cursor:pointer;flex:0 0 auto;transition:background-color .15s,color .15s}
+.themetog:hover{background:var(--ink);color:var(--paper)}
 
 /* hero */
 .hero{padding-block:clamp(3rem,8vw,6rem) var(--gap)}

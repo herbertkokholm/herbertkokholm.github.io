@@ -194,5 +194,23 @@
         "href": "https://github.com/herbertkokholm/attest"
       }
     ]
+  },
+  {
+    "id": "homepod-spotify-connect",
+    "name": "HomePod Spotify Connect",
+    "tracks": [],
+    "status": "Working",
+    "statusGroup": "active",
+    "year": "2026",
+    "summary": "Raspberry Pi bridge that makes an Apple HomePod show up as a Spotify Connect device.",
+    "body": "The HomePod doesn't support Spotify Connect natively. This small side project fills the gap with a Raspberry Pi: go-librespot receives the Spotify Connect stream, OwnTone forwards the audio to the HomePod over AirPlay 2, and a small volume bridge keeps the Spotify slider and the HomePod's own volume in sync in both directions. A single idempotent deploy script sets up the whole stack on Raspberry Pi OS. It uses about 150 MB of RAM, so it can share a Pi with other services.",
+    "image": null,
+    "links": [
+      {
+        "id": "homepod-spotify-connect-github",
+        "label": "GitHub",
+        "href": "https://github.com/herbertkokholm/homepod-spotify-connect"
+      }
+    ]
   }
 ]
